@@ -1,7 +1,8 @@
 export default function AboutMe() {
   return (
     <div>
-      <h1>어바웃미~~~~~</h1>
+      <div>경력사항</div>
+      <div>재직?근속기간 등</div>
     </div>
   );
 }

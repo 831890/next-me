@@ -1,3 +1,3 @@
 export default function Projects() {
-  return <h1>프로젝트</h1>;
+  return <div>API연동하기</div>;
 }
