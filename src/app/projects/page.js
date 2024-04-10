@@ -1,5 +1,5 @@
-import { TOKEN, DATABASE_ID } from '../../../config/index';
-
+import { TOKEN, DATABASE_ID } from '../../../config/index.js';
+import ProjectItem from '../../components/projectItem.js';
 async function getData() {
   const options = {
     method: 'POST',
@@ -44,18 +44,9 @@ export default async function Projects() {
               </h1>
               <div className="grid grid-cols-1 gap-8 p-12 m-4 md:grid-cols-2">
                 {results.map((project) => (
-                  <div key={project.id} className="project-item">
-                    <h2>{project.properties['project-title'].title[0].plain_text}</h2>
-                    <p>
-                      프로젝트 링크: <a href={project.properties['project-link'].url}>{project.properties['project-link'].url}</a>
-                    </p>
-                    <p>
-                      프로젝트 기간: {project.properties['project-period'].date.start} - {project.properties['project-period'].date.end}
-                    </p>
-                    <p>프로젝트 기여도: {project.properties['project-contribution'].number * 100} %</p>
-                    <p>프로젝트 태그: {project.properties['project-tag'].multi_select.map((tag) => tag.name).join(', ')}</p>
-                    {/* 추가적인 데이터 표시 */}
-                  </div>
+                  <>
+                    <ProjectItem key={project.id} data={project} />
+                  </>
                 ))}
               </div>
             </div>
