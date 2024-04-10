@@ -22,18 +22,18 @@ export default function ProjectItem(props) {
           프로젝트 링크: <a href={link}>{link}</a>
         </p>
         <p>
-          기간: {startDate} - {endDate}
+          프로젝트 기간: {startDate} - {endDate}
         </p>
-        <p>기여도: {contribution} %</p>
+        <p>프로젝트 기여도: {contribution} %</p>
         {/* <p className="flex items-start mt-2">
           {tags}
           <span className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30"></span>
         </p> */}
 
         <div className="flex items-start mt-2">
-          {tags.map((aTag) => (
-            <span className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30" key={aTag.id}>
-              {aTag.name}
+          {tags.map((tag) => (
+            <span className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30" key={tag.id}>
+              {tag.name}
             </span>
           ))}
         </div>
