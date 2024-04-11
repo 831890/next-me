@@ -1,5 +1,5 @@
 export const images = {
-  domains: ['www.notion.so'], // 기존에 있던 설정에 호스트 이름 추가
+  domains: ['www.notion.so'],
 };
 export async function headers() {
   return [
@@ -8,7 +8,7 @@ export async function headers() {
       source: '/:path*',
       headers: [
         { key: 'Access-Control-Allow-Credentials', value: 'true' },
-        { key: 'Access-Control-Allow-Origin', value: '*' }, // replace this your actual origin
+        { key: 'Access-Control-Allow-Origin', value: '*' },
         { key: 'Access-Control-Allow-Methods', value: 'GET,DELETE,PATCH,POST,PUT' },
         { key: 'Access-Control-Allow-Headers', value: 'X-CSRF-Token, X-Requested-With, Accept, Accept-Version, Content-Length, Content-MD5, Content-Type, Date, X-Api-Version' },
       ],

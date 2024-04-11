@@ -15,7 +15,7 @@ export default function ProjectItem(props) {
 
   return (
     <div key={data.id} className="project-item">
-      <Image className="rounded-t-xl" src={imgSrc} alt="cover image" width="100%" height="50%" layout="responsive" objectFit="cover" quality={100} />
+      {imgSrc && <Image className="rounded-t-xl" src={imgSrc} alt="cover image" width="100%" height="50%" layout="responsive" objectFit="cover" quality={100} />}
       <div className="p-4 flex flex-col">
         <h2 className="text-2xl font-bold">{title}</h2>
         <p className='mt-4 text-xl"'>
