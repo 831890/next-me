@@ -39,7 +39,7 @@ export default async function Projects2() {
   const results = await getData();
   return (
     <>
-      <section className="text-gray-600 body-font">
+      <section className="body-font">
         <div className="container px-5 py-24 mx-auto">
           {/* 타이틀 */}
           {results && (
