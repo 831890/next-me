@@ -1,12 +1,11 @@
+import Title from '../../components/title.js';
+
 export default function AboutMe() {
   return (
     <section className="body-font overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         {/* 타이틀 */}
-        <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-          <h2 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Work Experience</h2>
-          <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">The companies that I've worked for and the period of time!</p>
-        </div>
+        <Title tit={'Work Experience'} desc={"The companies that I've worked for and the period of time!"} />
 
         <div className="-my-8 divide-y-2 divide-gray-100">
           {/* 회사 1 */}

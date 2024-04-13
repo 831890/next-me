@@ -1,5 +1,7 @@
 import { TOKEN, DATABASE_ID } from '../../../config/index.js';
+import Title from '../../components/title.js';
 import ProjectItem from '../../components/projectItem.js';
+
 async function getData() {
   const options = {
     method: 'POST',
@@ -42,10 +44,7 @@ export default async function Projects2() {
       <section className="body-font">
         <div className="container px-5 py-24 mx-auto">
           {/* 타이틀 */}
-          <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-            <h2 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">PROJECTS</h2>
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Something I've made for fun or made by the company!</p>
-          </div>
+          <Title tit={'PROJECTS'} desc={"Something I've made for fun or made by the company!"} />
           {results && (
             <>
               <div className="flex flex-wrap -m-4">

@@ -1,13 +1,12 @@
+import Title from '../../components/title.js';
+
 export default function Skills() {
   return (
     <>
       <section className="body-font">
         <div className="container px-5 py-24 mx-auto">
           {/* 타이틀 */}
-          <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-            <h2 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">SKILLS</h2>
-            <p className="lg:w-1/2 w-full leading-relaxed text-gray-500">Something I've ever tried or used!</p>
-          </div>
+          <Title tit={'SKILLS'} desc={"Something I've ever tried or used!"} />
           <div className="flex flex-wrap -m-4">
             {/* 1 */}
             <div className="xl:w-1/3 md:w-1/2 p-4">
