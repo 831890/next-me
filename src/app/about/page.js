@@ -177,40 +177,40 @@ export default function AboutMe() {
                 <div className="leading-relaxed">
                   <ul>
                     <li>
-                      <a href="https://gong.conects.com">- 공단기 https://gong.conects.com</a>
+                      <a href="https://gong.conects.com">- 공단기</a>
                     </li>
                     <li>
-                      <a href="https://gyung.conects.com">- 경단기 https://gyung.conects.com</a>
+                      <a href="https://gyung.conects.com">- 경단기</a>
                     </li>
                     <li>
-                      <a href="https://gyung.conects.com">- 경찰승진단기 https://gyung.conects.com</a>
+                      <a href="https://gyung.conects.com">- 경찰승진단기</a>
                     </li>
                     <li>
-                      <a href="https://summatus.conects.com">- 숨마투스 https://summatus.conects.com</a>
+                      <a href="https://summatus.conects.com">- 숨마투스</a>
                     </li>
                     <li>
-                      <a href="https://sobang.conects.com">- 소방단기 https://sobang.conects.com</a>
+                      <a href="https://sobang.conects.com">- 소방단기</a>
                     </li>
                     <li>
-                      <a href="https://gong.conects.com/tax">- 세무/관세사단기 https://gong.conects.com/tax</a>
+                      <a href="https://gong.conects.com/tax">- 세무/관세사단기</a>
                     </li>
                     <li>
-                      <a href="https://gong.conects.com/social">- 사회복지사단기 https://gong.conects.com/social</a>
+                      <a href="https://gong.conects.com/social">- 사회복지사단기</a>
                     </li>
                     <li>
-                      <a href="https://ja.conects.com">- 자격증단기 https://ja.conects.com</a>
+                      <a href="https://ja.conects.com">- 자격증단기</a>
                     </li>
                     <li>
-                      <a href="https://gongin.conects.com">- 공인단기 https://gongin.conects.com</a>
+                      <a href="https://gongin.conects.com">- 공인단기</a>
                     </li>
                     <li>
-                      <a href="https://public.conects.com">- 공기업단기 https://public.conects.com</a>
+                      <a href="https://public.conects.com">- 공기업단기</a>
                     </li>
                     <li>
-                      <a href="https://www.schole.ac">- 스콜레 https://www.schole.ac</a>
+                      <a href="https://www.schole.ac">- 스콜레</a>
                     </li>
                     <li>
-                      <a href="https://peet.conects.com">- PEET 단기 https://peet.conects.com</a>
+                      <a href="https://peet.conects.com">- PEET 단기</a>
                     </li>
                   </ul>
                 </div>
@@ -224,28 +224,28 @@ export default function AboutMe() {
                   <span>관련 프로모션 URL외 다수</span>
                   <ul>
                     <li>
-                      <a href="https://gong.conects.com/gong/lecture/free/main_renewal#2384">- https://gong.conects.com/gong/lecture/free/main_renewal#2384</a>
+                      <a href="https://gong.conects.com/gong/lecture/free/main_renewal#2384">- 공단기 리뉴얼</a>
                     </li>
                     <li>
-                      <a href="https://gong.conects.com/gong/promotion/event/friends/pickpick">- https://gong.conects.com/gong/promotion/event/friends/pickpick</a>
+                      <a href="https://gong.conects.com/gong/promotion/event/friends/pickpick">- 공단기 이벤트</a>
                     </li>
                     <li>
-                      <a href="https://gyung.conects.com/promotion/event/2019/gyung_care_24_2nd">- https://gyung.conects.com/promotion/event/2019/gyung_care_24_2nd</a>
+                      <a href="https://gyung.conects.com/promotion/event/2019/gyung_care_24_2nd">- 경단기 프렙24 프로모션</a>
                     </li>
                     <li>
-                      <a href="https://bupgum.conects.com/landing/gold_key/autumn_event_201910">- https://bupgum.conects.com/landing/gold_key/autumn_event_201910</a>
+                      <a href="https://bupgum.conects.com/landing/gold_key/autumn_event_201910">- 법검단기 이벤트</a>
                     </li>
                     <li>
-                      <a href="https://gong.conects.com/gong/promotion/event/diary/teaser">- https://gong.conects.com/gong/promotion/event/diary/teaser</a>
+                      <a href="https://gong.conects.com/gong/promotion/event/diary/teaser">- 공단기 다이어리 이벤트</a>
                     </li>
                     <li>
-                      <a href="https://gong.conects.com/gong/promotion/event/2019/thankyou">- https://gong.conects.com/gong/promotion/event/2019/thankyou</a>
+                      <a href="https://gong.conects.com/gong/promotion/event/2019/thankyou">- 공단기 연말 이벤트</a>
                     </li>
                     <li>
-                      <a href="https://gyung.conects.com/promotion/event/gold_key/v1">- https://gyung.conects.com/promotion/event/gold_key/v1</a>
+                      <a href="https://gyung.conects.com/promotion/event/gold_key/v1">- 경단기 이벤트</a>
                     </li>
                     <li>
-                      <a href="https://elec.conects.com/landing/2019/cheerup">- https://elec.conects.com/landing/2019/cheerup</a>
+                      <a href="https://elec.conects.com/landing/2019/cheerup">- 전기단기 응원 이벤트</a>
                     </li>
                   </ul>
                 </div>
@@ -258,7 +258,7 @@ export default function AboutMe() {
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             {/* 회사 타이틀 */}
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <h2 className="text-2xl font-semibold title-font text-gray-700">(주)해커스어학원</h2>
+              <h2 className="text-2xl font-semibold title-font text-gray-700">(주)해커스 교육그룹</h2>
               <span className="mt-1 text-gray-500 text-sm">2014.04 ~ 2015.06</span>
             </div>
             {/* 회사 타이틀 */}
@@ -267,7 +267,7 @@ export default function AboutMe() {
             <div className="md:flex-grow">
               <div className="mb-8">
                 <h3 className="font-medium text-gray-900 title-font mb-2">
-                  사이트 리뉴얼 및 운영/유지보수 <span>2014.04 ~ 2015.06</span>
+                  담당 사이트 리뉴얼 및 운영/유지보수 <span>2014.04 ~ 2015.06</span>
                 </h3>
                 <div className="leading-relaxed">
                   <ul>
