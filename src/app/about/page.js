@@ -115,7 +115,7 @@ export default function AboutMe() {
             <div className="md:flex-grow">
               <div className="mb-8">
                 <h3 className="font-medium text-gray-900 title-font mb-2">
-                  힙합퍼 사이트 리뉴얼 및 운영 / 유지보수 <span>2020.04 ~ 2020.09</span>
+                  힙합퍼 사이트 리뉴얼 및 운영/유지보수 <span>2020.04 ~ 2020.09</span>
                 </h3>
                 <div className="leading-relaxed">
                   <ul>
@@ -265,7 +265,7 @@ export default function AboutMe() {
             <div className="md:flex-grow">
               <div className="mb-8">
                 <h3 className="font-medium text-gray-900 title-font mb-2">
-                  사이트 리뉴얼 및 운영 <span>2014.04 ~ 2015.06</span>
+                  사이트 리뉴얼 및 운영/유지보수 <span>2014.04 ~ 2015.06</span>
                 </h3>
                 <div className="leading-relaxed">
                   <ul>
