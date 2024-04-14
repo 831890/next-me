@@ -100,9 +100,8 @@ export default function AboutMe() {
                 </div>
               </div>
             </div>
-            {/* md:flex-grow */}
           </div>
-
+          {/* //회사 1 */}
           {/* 회사 2 */}
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             {/* 회사 타이틀 */}
@@ -139,7 +138,7 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
-
+          {/* //회사 2 */}
           {/* 회사 3 */}
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             {/* 회사 타이틀 */}
@@ -253,14 +252,17 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
+          {/* //회사 3 */}
 
           {/* 회사 4 */}
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             {/* 회사 타이틀 */}
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
-              <h2 className="text-2xl font-semibold title-font text-gray-700">(주)해커스</h2>
+              <h2 className="text-2xl font-semibold title-font text-gray-700">(주)해커스어학원</h2>
               <span className="mt-1 text-gray-500 text-sm">2014.04 ~ 2015.06</span>
             </div>
+            {/* 회사 타이틀 */}
+
             {/* 경력 */}
             <div className="md:flex-grow">
               <div className="mb-8">
@@ -303,7 +305,6 @@ export default function AboutMe() {
               </div>
             </div>
           </div>
-
           {/* 회사 5 */}
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             {/* 회사 타이틀 */}
