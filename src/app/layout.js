@@ -7,8 +7,8 @@ import { ThemeProvider } from 'next-themes';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: '중앙이의 포트폴리오',
-  description: '중앙이의 포트폴리오~',
+  title: '중앙이의 포트폴리오(진행중)',
+  description: '진행중',
 };
 
 export default function RootLayout({ children }) {
