@@ -44,7 +44,7 @@ export default async function Projects2() {
       <section className="body-font">
         <div className="container px-5 py-24 mx-auto">
           {/* 타이틀 */}
-          <Title tit={'PROJECTS'} desc={"Something I've made for fun or made by the company!"} />
+          <Title tit={'PROJECTS'} desc={"Something I've made for fun or made by the company!~"} />
           {results && (
             <>
               <div className="flex flex-wrap -m-4">
