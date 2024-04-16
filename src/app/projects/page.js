@@ -7,7 +7,7 @@ async function getData() {
     method: 'POST',
     headers: {
       Accept: 'application/json',
-      'Notion-Version': '2022-06-28',
+      'Notion-Version': '2022-02-22',
       'Content-Type': 'application/json',
       Authorization: `Bearer ${TOKEN}`,
     },
@@ -15,7 +15,6 @@ async function getData() {
       sorts: [
         {
           property: 'project-title',
-          property: 'project-sub-title',
           direction: 'ascending',
         },
       ],
