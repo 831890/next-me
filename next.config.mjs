@@ -1,5 +1,5 @@
 export const images = {
-  domains: ['www.notion.so'],
+  domains: ['www.notion.so', 'images.unsplash.com'],
 };
 export async function headers() {
   return [
