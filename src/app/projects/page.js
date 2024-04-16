@@ -41,12 +41,13 @@ export default async function Projects2() {
   return (
     <>
       <section className="body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container py-24 px-4 mx-auto">
           {/* 타이틀 */}
           <Title tit={'PROJECTS'} desc={"Something I've made for fun or made by the company!~"} />
           {results && (
             <>
-              <div className="flex flex-wrap -m-4">
+              <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 md:grid-cols-2">
+                {/* <div className="flex flex-wrap -m-4"> */}
                 {/* projectItem */}
                 {results.map((project) => (
                   <ProjectItem key={project.id} data={project} />
