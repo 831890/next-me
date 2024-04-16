@@ -18,7 +18,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h3 className="text-lg text-gray-900 font-medium title-font mb-2">HTML5</h3>
-                <p className="leading-relaxed text-base">웹표준, 웹접근성, 시맨틱 마크업, 크로스브라우징등 기본적인 규칙들을 잘 지키며 탄탄한 구조를 만들 수 있습니다.</p>
+                {/* <p className="leading-relaxed text-base">웹표준, 웹접근성, 시맨틱 마크업, 크로스브라우징등 기본적인 규칙들을 잘 지키며 탄탄한 구조를 만들 수 있습니다.</p> */}
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -30,7 +30,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h3 className="text-lg text-gray-900 font-medium title-font mb-2">CSS3</h3>
-                <p className="leading-relaxed text-base">CSS3 설명 설명 설명 CSS3 설명 설명 설명 CSS3 설명 설명 설명 CSS3 설명 설명 설명 CSS3 설명 설명 설명 CSS3 설명 설명 설명 </p>
+                {/* <p className="leading-relaxed text-base">CSS3 설명 설명 설명 CSS3 설명 설명 설명 CSS3 설명 설명 설명 CSS3 설명 설명 설명 CSS3 설명 설명 설명 CSS3 설명 설명 설명 </p> */}
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -42,7 +42,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">JavaScript</h2>
-                <p className="leading-relaxed text-base">JavaScript 설명을 써줘라 블라블라 JavaScript 설명을 써줘라 블라블라 JavaScript 설명을 써줘라 블라블라 JavaScript 설명을 써줘라 블라블라 </p>
+                {/* <p className="leading-relaxed text-base">JavaScript 설명을 써줘라 블라블라 JavaScript 설명을 써줘라 블라블라 JavaScript 설명을 써줘라 블라블라 JavaScript 설명을 써줘라 블라블라 </p> */}
               </div>
             </div>
 
@@ -56,7 +56,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">React</h2>
-                <p className="leading-relaxed text-base">React React ReactReact React React React React React ReactReact React React React React React ReactReact React React React </p>
+                {/* <p className="leading-relaxed text-base">React React ReactReact React React React React React ReactReact React React React React React ReactReact React React React </p> */}
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -68,7 +68,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Vue.js</h2>
-                <p className="leading-relaxed text-base">Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js</p>
+                {/* <p className="leading-relaxed text-base">Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js Vue.js</p> */}
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -80,7 +80,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">JSON Web Tokens</h2>
-                <p className="leading-relaxed text-base">JSON Web Tokens JSON Web Tokens JSON Web Tokens JSON Web Tokens JSON Web Tokens JSON Web </p>
+                {/* <p className="leading-relaxed text-base">JSON Web Tokens JSON Web Tokens JSON Web Tokens JSON Web Tokens JSON Web Tokens JSON Web </p> */}
               </div>
             </div>
 
@@ -95,7 +95,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h3 className="text-lg text-gray-900 font-medium title-font mb-2">styled-components</h3>
-                <p className="leading-relaxed text-base">styled-components styled-components styled-components styled-components styled-components </p>
+                {/* <p className="leading-relaxed text-base">styled-components styled-components styled-components styled-components styled-components </p> */}
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -107,7 +107,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h3 className="text-lg text-gray-900 font-medium title-font mb-2">Tailwind CSS</h3>
-                <p className="leading-relaxed text-base">Tailwind CSS Tailwind CSS Tailwind CSS Tailwind CSS Tailwind CSS Tailwind CSS Tailwind CSS</p>
+                {/* <p className="leading-relaxed text-base">Tailwind CSS Tailwind CSS Tailwind CSS Tailwind CSS Tailwind CSS Tailwind CSS Tailwind CSS</p> */}
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -119,7 +119,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Bootstrap</h2>
-                <p className="leading-relaxed text-base">Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap</p>
+                {/* <p className="leading-relaxed text-base">Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap Bootstrap</p> */}
               </div>
             </div>
 
@@ -134,7 +134,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h3 className="text-lg text-gray-900 font-medium title-font mb-2">Figma</h3>
-                <p className="leading-relaxed text-base">Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma</p>
+                {/* <p className="leading-relaxed text-base">Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma Figma</p> */}
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -146,7 +146,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h3 className="text-lg text-gray-900 font-medium title-font mb-2">Adobe Photoshop</h3>
-                <p className="leading-relaxed text-base">Adobe Photoshop Adobe Photoshop Adobe Photoshop Adobe Photoshop Adobe Photoshop Adobe Photoshop </p>
+                {/* <p className="leading-relaxed text-base">Adobe Photoshop Adobe Photoshop Adobe Photoshop Adobe Photoshop Adobe Photoshop Adobe Photoshop </p> */}
               </div>
             </div>
             <div className="xl:w-1/3 md:w-1/2 p-4">
@@ -158,7 +158,7 @@ export default function Skills() {
                   </svg>
                 </div>
                 <h2 className="text-lg text-gray-900 font-medium title-font mb-2">Git</h2>
-                <p className="leading-relaxed text-base">Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git</p>
+                {/* <p className="leading-relaxed text-base">Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git Git</p> */}
               </div>
             </div>
           </div>
