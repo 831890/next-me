@@ -1,5 +1,5 @@
 export const images = {
-  domains: ['www.notion.so', 'images.unsplash.com'],
+  domains: ['www.notion.so', 'images.unsplash.com', 's3.us-west-2.amazonaws.com'],
 };
 export async function headers() {
   return [
@@ -15,3 +15,12 @@ export async function headers() {
     },
   ];
 }
+
+// /** @type {import('next').NextConfig} */
+// export const images = {
+//   reactStrictMode: true,
+//   images: {
+//     domains: ['www.notion.so', 'images.unsplash.com', 's3.us-west-2.amazonaws.com'],
+//     format: ['image/png', 'image/webp', 'image/jpeg'],
+//   },
+// };
