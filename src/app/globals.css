@@ -46,3 +46,11 @@ p,
 span {
   @apply text-neutral-600 dark:text-neutral-100;
 }
+
+.svg-000:path {
+  fill: #000;
+  background: red;
+}
+.svg-fff:path {
+  fill: #fff;
+}
