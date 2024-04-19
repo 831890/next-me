@@ -1,8 +1,5 @@
 import Title from '../../components/title.js';
-
-// Skills.js
 import SkillItem from '../../components/skillItem.js';
-
 const skillsData = [
   {
     id: 1,
