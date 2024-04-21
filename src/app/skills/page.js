@@ -1,6 +1,6 @@
 import Title from '../../components/title.js';
 import SkillItem from '../../components/skillItem.js';
-import skillsData from '../../data/skillsData.json';
+import skillsData from '../../data/skills.json';
 
 export default function Skills() {
   return (
