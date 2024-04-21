@@ -6,10 +6,10 @@ export default function Skills() {
   return (
     <>
       <section className="body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container py-24 px-4 mx-auto">
           {/* 타이틀 */}
           <Title tit={'SKILLS'} desc={"Something I've ever tried or used!"} />
-          <div className="flex flex-wrap -m-4">
+          <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 md:grid-cols-2">
             {skillsData.map((skill) => (
               <SkillItem key={skill.id} skill={skill} />
             ))}

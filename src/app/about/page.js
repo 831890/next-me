@@ -56,7 +56,7 @@ export default function AboutMe() {
                 </h3>
                 <div className="leading-relaxed">
                   <ul>
-                    <li>- React Framework 사용하여 리뉴얼 진행</li>
+                    <li>- React Library 사용하여 리뉴얼 진행</li>
                     <li>- UI 마크업과 axios를 사용하여 데이터 바인딩으로 각종 상담 및 게시판 개발</li>
                     <li>- Light house 웹 사이트 성능 개선 (진행중)</li>
                     <li>- 사용기술 : React (CRA) / styled-component / sass</li>
