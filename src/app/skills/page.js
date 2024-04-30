@@ -7,7 +7,6 @@ export default function Skills() {
     <>
       <section className="body-font">
         <div className="container py-24 px-4 mx-auto">
-          {/* 타이틀 */}
           <Title tit={'SKILLS'} desc={"Something I've ever tried or used!"} />
           <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 md:grid-cols-2">
             {skillsData.map((skill) => (
